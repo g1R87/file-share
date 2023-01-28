@@ -1,0 +1,11 @@
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier as dtc
+
+music_data=pd.read_csv('music.csv')
+X = music_data.drop(columns=['genre'])
+y  = music_data['genre']
+
+model = dtc()
+model.fit(X, y)
+predictions = model.predict([ [21,1], [22,0] ])
+predictions

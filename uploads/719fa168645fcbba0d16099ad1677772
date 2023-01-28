@@ -1,0 +1,72 @@
+Lab 1
+
+1.    Write a C# Console Program to input two numbers and show the sum.
+2.    Write a C# Program to show the sum of the array elements using for loop and foreach loop.
+3.    Write a program to show function overloading in C#.
+4.    Create a class “Employee” with following specs:
+Field Members : firstName, lastName, salary
+Properties : FirstName, LastName, Salary
+Methods : ShowFullName, IncrementSalary(double s)
+Constructor : Employee(__ , ___ , ___)
+ Now, create object of Employee(“Ram”, “Bahadur”, 20000)
+-  Show Employee Fullname & Salary
+-  Change FirstName to “Hari” & increment salary by 5000
+-  Show full name & salary
+
+ Lab 2
+1.     Write a program to show Inheritance in C#.
+2.     Write a program to Handle DivdeByZeroException and IndexOutOfRangeException.
+3.     Write a program with Abstract Class, showing Abstract Method Override in child Class.
+4.     Write a program to show multiple inheritance in C# with one Parent Class, one Child Class and one or two  interfaces.
+
+
+Lab 3
+1.   WAP to handle file in C#.
+a.     Create and Write to a file
+b.    Check whether file exists
+c.     Read from a file
+2.     WAP in LINQ Syntax
+a.      First create List of strings with 4 string values
+b.    Get and show all string from List with LINQ
+c.     Filter and show the list containing the matching string text.
+3.     Write an asynchronous program in C#.
+
+Lab 4
+
+1. Create a ASP.NET Core MVC Project and perform following task:
+a.    Create a controller Controller1 with 3 action methods:
+                   i.     Index – this should return string
+                  ii.     Details – pass some value and show this in its corresponding view page.
+                 iii.     Show - use of ViewData and ViewBag
+
+2.    In your project, add new Controller Controller2 with add one action method to send id numeric value and string value to your view page. Then show using razor syntax to display the string value to id number of times.
+3.    Now Add model Model1 in your project with these property members – FullName, Email, Salary
+         a.    Add Data Annotation on Model
+         b.   Add necessary Model Validation on each property member
+4.    On any of the above controller, create action methods with HttpGet and HttpPost:
+         a.    show how you can bind the Model,
+         b.   check the Model State is Valid or not and 
+         c.    show validation message in your view page.
+
+Lab 5
+
+1.       WAP to show the use ADO.NET in your .NET Program with Console Application or ASP.NET Web Forms Project or ASP.NET Core MVC Project. 
+a.       Create Database and Table in SQL Server
+b.       Create a form to get user data input and insert into table
+c.       Show Data from your table.
+
+Lab 6
+
+1.       Create a new ASP.NET Core MVC Project using Entity Framework. Show with each step along with screenshot.
+a.       Add Necessary Nuget Packages
+b.       Create Model Class
+c.       GenerateDatabase and Table
+d.       Create Controller and views using Entity Framework
+e.       Explain your code in Controller and views
+
+Lab 7
+WAP to show state management using session to set Session and retrieve Session Value in your ASP.NET Core Program
+Write a simple program to show use of TempData from one action method 1 to action method 2.
+Write a Client side Javascript Program to change the background color of a page on button click.
+Write a jQuery Program to hide <H1> element on Button Click and fadeout element with id as FadeId.
+Show how you can create Angular JS application in Visual Studio.

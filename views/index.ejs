@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <% if(locals.fileLink != null){ %>
+    <div>
+      Your file is uploaded
+      <a href="<%=locals.fileLink%>"><%=locals.fileLink%></a>
+    </div>
+    <%} %>
+    <form
+      action="/api/v1/upload"
+      method="post"
+      class="file-form"
+      enctype="multipart/form-data"
+    >
+      <label for="file"> File:</label>
+      <input type="file" id="file" name="file" required />
+      <label for="password"> Password:</label>
+      <input type="password" id="password" name="password" />
+      <input type="submit" value="Share" class="form-button" />
+    </form>
+  </body>
+</html>
